@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 		line_num++;
 		if (t > 0)
 		{
-			implement(&stack, info, txt, line_num);
+			execute(&stack, info, txt, line_num);
 		}
 		free(info);
 	}

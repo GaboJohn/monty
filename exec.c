@@ -1,14 +1,14 @@
 #include "monty.h"
 
 /**
- * implement - execute opcode
+ * execute - execute opcode
  * @stack: linked list
  * @info: file information
  * @txt: pointer to file
  * @line_number: line number
  * Return: nothing
  */
-int implement(stack_t **stack, char *info, FILE *txt, unsigned int line_number)
+int execute(stack_t **stack, char *info, FILE *txt, unsigned int line_number)
 {
 	instruction_t codeop[] = {
 		{"push", opcode_push},
