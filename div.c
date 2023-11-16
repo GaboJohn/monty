@@ -27,7 +27,7 @@ void opcode_div(stack_t **stack, unsigned int line_number)
 		cleanup(stack);
 		exit(EXIT_FAILURE);
 	}
-	tmp = num->n / num->n;
+	tmp = num->next->n / num->n;
 	num->next->n = tmp;
 	*stack = num->next;
 	free(num);
