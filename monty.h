@@ -63,6 +63,7 @@ void cleanup(stack_t **stack);
 void opcode_pint(stack_t **stack, unsigned int line_number);
 void opcode_pop(stack_t **stack, unsigned int line_number);
 void opcode_swap(stack_t **stack, unsigned int line_number);
+void opcode_add(stack_t **stack, unsigned int line_number);
 
 void add_que(stack_t **stack, int n);
 void add_node(stack_t **stack, int n);

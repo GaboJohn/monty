@@ -15,7 +15,8 @@ int execute(stack_t **stack, char *info, FILE *txt, unsigned int line_number)
 		{"pall", opcode_pall},
 		{"pint", opcode_pint},
 		{"pop", opcode_pop},
-		{"swap", opcode_swap}
+		{"swap", opcode_swap},
+		{"add", opcode_add}
 	};
 
 		unsigned int x = 0;
