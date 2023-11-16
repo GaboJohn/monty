@@ -61,6 +61,7 @@ int main(int argc, char *argv[]);
 int execute(stack_t **stack, char *info, FILE *txt, unsigned int line_number);
 void cleanup(stack_t **stack);
 void opcode_pint(stack_t **stack, unsigned int line_number);
+void opcode_pop(stack_t **stack, unsigned int line_number);
 void add_que(stack_t **stack, int n);
 void add_node(stack_t **stack, int n);
 #endif /* MONTY_H */

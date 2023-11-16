@@ -13,7 +13,8 @@ int execute(stack_t **stack, char *info, FILE *txt, unsigned int line_number)
 	instruction_t codeop[] = {
 		{"push", opcode_push},
 		{"pall", opcode_pall},
-		{"pint", opcode_pint}
+		{"pint", opcode_pint},
+		{"pop", opcode_pop}
 	};
 
 		unsigned int x = 0;
