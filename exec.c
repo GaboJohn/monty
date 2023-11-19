@@ -25,7 +25,9 @@ int execute(stack_t **stack, char *info, FILE *txt, unsigned int line_number)
 		{"pchar", opcode_pchar},
 		{"pstr", opcode_pstr},
 		{"rotl", opcode_rotl},
-		{"rotr", opcode_rotr}
+		{"rotr", opcode_rotr},
+		{"stack", opcode_stack},
+		{"queue", opcode_queue}
 		
 	};
 
