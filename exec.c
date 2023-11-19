@@ -21,7 +21,8 @@ int execute(stack_t **stack, char *info, FILE *txt, unsigned int line_number)
 		{"sub", opcode_sub},
 		{"div", opcode_div},
 		{"mul", opcode_mul},
-		{"mod", opcode_mod}
+		{"mod", opcode_mod},
+		{"pchar", opcode_pchar}
 		
 	};
 
