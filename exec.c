@@ -23,7 +23,8 @@ int execute(stack_t **stack, char *info, FILE *txt, unsigned int line_number)
 		{"mul", opcode_mul},
 		{"mod", opcode_mod},
 		{"pchar", opcode_pchar},
-		{"pstr", opcode_pstr}
+		{"pstr", opcode_pstr},
+		{"rotl", opcode_rotl}
 		
 	};
 
