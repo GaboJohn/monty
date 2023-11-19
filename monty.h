@@ -70,6 +70,8 @@ void opcode_div(stack_t **stack, unsigned int line_number);
 void opcode_mul(stack_t **stack, unsigned int line_number);
 void opcode_mod(stack_t **stack, unsigned int line_number);
 void opcode_pchar(stack_t **stack, unsigned int line_number);
+void opcode_pstr(stack_t **stack, unsigned int line_number);
+
 void add_que(stack_t **stack, int n);
 void add_node(stack_t **stack, int n);
 #endif /* MONTY_H */
